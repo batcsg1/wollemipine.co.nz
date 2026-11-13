@@ -30,6 +30,7 @@
 		z-index: 10;
 		background: var(--header-bg);
 		border-bottom: 1px solid var(--line);
+		border-image: var(--fade-line) 1;
 	}
 
 	.bar {
@@ -106,6 +107,7 @@
 			gap: 0;
 			background: var(--header-bg);
 			border-bottom: 1px solid var(--line);
+			border-image: var(--fade-line) 1;
 		}
 
 		nav.open {
@@ -115,6 +117,7 @@
 		nav a {
 			padding: 16px var(--gutter);
 			border-top: 1px solid var(--line);
+			border-image: var(--fade-line) 1;
 		}
 	}
 </style>

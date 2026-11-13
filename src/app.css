@@ -8,6 +8,11 @@
 	--grad-bg: linear-gradient(45deg, #000, var(--bg));
 	--grad-alt: linear-gradient(45deg, #000, var(--bg-alt));
 	--grad-surface: linear-gradient(45deg, #000, var(--surface));
+
+	/* Lines that fade out, used with `border-image: <token> 1` */
+	--fade-line: linear-gradient(90deg, #3e5245, transparent 85%);
+	--fade-accent: linear-gradient(90deg, var(--accent), transparent 85%);
+	--fade-box: linear-gradient(135deg, #46604f, transparent 75%);
 	--line: #223027;
 	--line-strong: #2c3a30;
 
@@ -74,6 +79,7 @@ a {
 .section {
 	padding: clamp(64px, 9vw, 112px) 0;
 	border-top: 1px solid var(--line);
+	border-image: var(--fade-line) 1;
 	scroll-margin-top: 72px;
 	background: var(--grad-bg);
 }

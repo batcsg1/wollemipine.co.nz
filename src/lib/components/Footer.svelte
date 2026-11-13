@@ -116,6 +116,7 @@
 		gap: 16px 48px;
 		padding-top: 28px;
 		border-top: 1px solid rgba(255, 255, 255, 0.1);
+		border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.18), transparent 85%) 1;
 		font-size: 0.8125rem;
 		line-height: 1.6;
 	}

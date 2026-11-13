@@ -209,7 +209,7 @@
 		<span class="eyebrow">About this site</span>
 		<h2 class="section-title about-title">Independent, non-commercial, and made in New Zealand.</h2>
 		<p class="lede">
-			Wollemi Pine NZ is a personal project by [YOUR NAME]. It is not affiliated with, endorsed by,
+			Wollemi Pine NZ is a personal project by Samuel Batchelor. It is not affiliated with, endorsed by,
 			or licensed by Wollemi Australia Pty Ltd, the Botanic Gardens of Sydney, or any nursery. For
 			the official conservation and licensing programme, visit
 			<a href="https://wollemipine.com" target="_blank" rel="noopener">wollemipine.com</a>.
@@ -251,12 +251,14 @@
 		padding: 20px;
 		background: var(--grad-surface);
 		border: 1px solid var(--line-strong);
+		border-image: var(--fade-box) 1;
 	}
 
 	/* Stats strip */
 	.stats {
 		padding: 36px 0 40px;
 		border-top: 1px solid var(--line);
+		border-image: var(--fade-line) 1;
 	}
 
 	.stat-grid {
@@ -267,6 +269,7 @@
 
 	.stat {
 		border-top: 3px solid var(--accent);
+		border-image: var(--fade-accent) 1;
 		padding-top: 16px;
 	}
 
@@ -292,6 +295,7 @@
 		padding: 0;
 		list-style: none;
 		border-top: 1px solid var(--line);
+		border-image: var(--fade-line) 1;
 	}
 
 	.table .row {
@@ -301,6 +305,7 @@
 		gap: 16px;
 		padding: 18px 0;
 		border-bottom: 1px solid var(--line);
+		border-image: var(--fade-line) 1;
 	}
 
 	dt {
@@ -332,6 +337,7 @@
 		padding: 28px;
 		background: var(--grad-bg);
 		border: 1px solid var(--line-strong);
+		border-image: var(--fade-box) 1;
 	}
 
 	.card h3 {
@@ -347,6 +353,7 @@
 	.register {
 		margin-top: 56px;
 		border-top: 1px solid var(--line);
+		border-image: var(--fade-line) 1;
 	}
 
 	.register-row {
@@ -355,6 +362,7 @@
 		gap: 8px 32px;
 		padding: 22px 0;
 		border-bottom: 1px solid var(--line);
+		border-image: var(--fade-line) 1;
 		font-size: 0.9375rem;
 	}
 
