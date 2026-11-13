@@ -53,7 +53,7 @@
 </script>
 
 <svelte:head>
-	<title>Wollemi Pine NZ · Independent guide</title>
+	<title>WollemiPine.co.nz</title>
 	<meta
 		name="description"
 		content="A New Zealand guide to the Wollemi pine: what it is, how it grows here, and where you can see one."
