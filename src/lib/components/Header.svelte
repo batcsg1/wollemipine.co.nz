@@ -34,7 +34,7 @@
 		position: sticky;
 		top: 0;
 		z-index: 10;
-		background: var(--bg);
+		background: var(--header-bg);
 		border-bottom: 1px solid var(--line);
 	}
 
@@ -110,7 +110,7 @@
 			right: 0;
 			flex-direction: column;
 			gap: 0;
-			background: var(--bg);
+			background: var(--header-bg);
 			border-bottom: 1px solid var(--line);
 		}
 

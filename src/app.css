@@ -1,7 +1,8 @@
 :root {
-	--bg: #0e1712;
-	--bg-alt: #111c14;
-	--surface: #141f19;
+	--header-bg: #0e1712;
+	--bg: #0a110d;
+	--bg-alt: #0d1610;
+	--surface: #101a14;
 	--line: #223027;
 	--line-strong: #2c3a30;
 
