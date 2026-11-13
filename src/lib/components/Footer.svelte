@@ -26,7 +26,7 @@
 
 		<div class="bottom">
 			<p>Unofficial fan-page dedicated to the Wollemi Pine. Not affiliated with the, <a href="https://www.wollemipine.com/" target="_blank" rel="noopener noreferrer">Wollemi Pine®</a> trademark, <a href="https://www.nationalparks.nsw.gov.au/" target="_blank" rel="noopener noreferrer">NSW National Parks and Wildlife Service</a> or the <a href="https://www.botanicgardens.org.au/" target="_blank" rel="noopener noreferrer">Botanic Gardens of Sydney</a>.</p>
-			<p>Website designed by <a href="mailto:batcsg1@samuelbatchelor.nz" target="_blank" rel="noopener noreferrer">Samuel Batchelor</a> with the assistance of Claude by Anthropic [batcsg1@samuelbatchelor.nz] · Photo credits on each page</p>
+			<p>Website designed by <a href="mailto:batcsg1@samuelbatchelor.nz" target="_blank" rel="noopener noreferrer">Samuel Batchelor</a> with the assistance of <a class="claude" href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude by Anthropic</a> [batcsg1@samuelbatchelor.nz] · <a href="https://batchelornz.com" target="_blank" rel="noopener noreferrer">batchelornz.com</a> · Photo credits on each page</p>
 		</div>
 	</div>
 </footer>
@@ -131,6 +131,16 @@
 
 	.bottom a:hover {
 		color: var(--accent);
+	}
+
+	/* Claude's brand terracotta */
+	.bottom a.claude {
+		color: #d97757;
+		font-weight: 600;
+	}
+
+	.bottom a.claude:hover {
+		color: #e8957a;
 	}
 
 	@media (max-width: 760px) {
