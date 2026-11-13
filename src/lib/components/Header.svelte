@@ -1,11 +1,5 @@
 <script lang="ts">
-	const links = [
-		{ href: '#the-tree', label: 'The tree' },
-		{ href: '#growing', label: 'Growing in NZ' },
-		{ href: '#see-one', label: 'See one' },
-		{ href: '#nursery', label: 'Find a nursery' },
-		{ href: '#about', label: 'About' }
-	];
+	import { navLinks as links } from '#lib';
 
 	let open = $state(false);
 </script>
