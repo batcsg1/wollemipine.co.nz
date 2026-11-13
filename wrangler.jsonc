@@ -8,6 +8,10 @@
 		"binding": "ASSETS",
 		"directory": ".svelte-kit/cloudflare"
 	},
+	"routes": [
+		{ "pattern": "wollemipine.co.nz", "custom_domain": true },
+		{ "pattern": "www.wollemipine.co.nz", "custom_domain": true }
+	],
 	"observability": {
 		"enabled": true
 	}
