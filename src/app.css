@@ -1,0 +1,136 @@
+:root {
+	--bg: #0e1712;
+	--bg-alt: #111c14;
+	--surface: #141f19;
+	--line: #223027;
+	--line-strong: #2c3a30;
+
+	--text: #e9f1e4;
+	--text-body: #c3cdc0;
+	--text-muted: #8c988e;
+	--accent: #c9db6b;
+	--accent-ink: #0e1712;
+
+	--font-display: 'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;
+	--font-body: 'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;
+	--font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+	--container: 1180px;
+	--gutter: clamp(16px, 5vw, 76px);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--text-body);
+	font-family: var(--font-body);
+	font-size: 1.0625rem;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	color: var(--text);
+	font-family: var(--font-display);
+	font-weight: 700;
+	letter-spacing: -0.015em;
+	line-height: 1.05;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+}
+
+.container {
+	width: 100%;
+	max-width: calc(var(--container) + 2 * var(--gutter));
+	margin: 0 auto;
+	padding: 0 var(--gutter);
+}
+
+.section {
+	padding: clamp(64px, 9vw, 112px) 0;
+	border-top: 1px solid var(--line);
+	scroll-margin-top: 72px;
+}
+
+.section--alt {
+	background: var(--bg-alt);
+}
+
+.eyebrow {
+	display: block;
+	margin-bottom: 20px;
+	color: var(--accent);
+	font-family: var(--font-mono);
+	font-size: 0.75rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
+.section-title {
+	font-size: clamp(2rem, 4vw, 2.75rem);
+	margin-bottom: 20px;
+}
+
+.lede {
+	max-width: 620px;
+}
+
+.text-link {
+	color: var(--text);
+	font-weight: 600;
+	font-size: 0.9375rem;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.text-link:hover {
+	color: var(--accent);
+}
+
+.btn {
+	display: inline-block;
+	padding: 14px 22px;
+	background: var(--accent);
+	color: var(--accent-ink);
+	font-weight: 600;
+	font-size: 0.9375rem;
+	text-decoration: none;
+	transition: filter 0.15s;
+}
+
+.btn:hover {
+	filter: brightness(1.08);
+}
+
+.actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 16px 24px;
+	margin-top: 32px;
+}
+
+.placeholder {
+	font-family: var(--font-mono);
+	font-size: 0.75rem;
+	color: var(--text-muted);
+}
