@@ -22,8 +22,8 @@
 	--accent: #c9db6b;
 	--accent-ink: #0e1712;
 
-	--font-display: 'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;
-	--font-body: 'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;
+	--font-display: 'Oswald', 'Arial Narrow', system-ui, sans-serif;
+	--font-body: 'Oswald', 'Arial Narrow', system-ui, sans-serif;
 	--font-mono: 'IBM Plex Mono', ui-monospace, monospace;
 
 	--container: 1180px;
