@@ -229,6 +229,7 @@
 	/* Hero */
 	.hero {
 		padding: clamp(48px, 8vw, 96px) 0 clamp(64px, 9vw, 96px);
+		background: var(--grad-bg);
 	}
 
 	.hero h1 {
@@ -248,7 +249,7 @@
 		display: flex;
 		align-items: flex-end;
 		padding: 20px;
-		background: var(--surface);
+		background: var(--grad-surface);
 		border: 1px solid var(--line-strong);
 	}
 
@@ -329,7 +330,7 @@
 		flex-direction: column;
 		gap: 16px;
 		padding: 28px;
-		background: var(--bg);
+		background: var(--grad-bg);
 		border: 1px solid var(--line-strong);
 	}
 

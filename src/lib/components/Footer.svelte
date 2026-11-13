@@ -9,6 +9,7 @@
 	footer {
 		border-top: 1px solid var(--line);
 		padding: 32px 0 48px;
+		background: var(--grad-bg);
 		color: var(--text-muted);
 		font-size: 0.8125rem;
 	}

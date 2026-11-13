@@ -3,6 +3,11 @@
 	--bg: #0a110d;
 	--bg-alt: #0d1610;
 	--surface: #101a14;
+
+	/* Black fading into each colour, at 45° */
+	--grad-bg: linear-gradient(45deg, #000, var(--bg));
+	--grad-alt: linear-gradient(45deg, #000, var(--bg-alt));
+	--grad-surface: linear-gradient(45deg, #000, var(--surface));
 	--line: #223027;
 	--line-strong: #2c3a30;
 
@@ -70,10 +75,11 @@ a {
 	padding: clamp(64px, 9vw, 112px) 0;
 	border-top: 1px solid var(--line);
 	scroll-margin-top: 72px;
+	background: var(--grad-bg);
 }
 
 .section--alt {
-	background: var(--bg-alt);
+	background: var(--grad-alt);
 }
 
 .eyebrow {
